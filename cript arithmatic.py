@@ -1,4 +1,4 @@
-def is_valid_assignment(assignment, letters):
+0def is_valid_assignment(assignment, letters):
     # Check if the assignment is valid (no repeated digits)
     values = list(assignment.values())
     return len(values) == len(set(values))
